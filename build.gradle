@@ -30,4 +30,5 @@ dependencies {
 	runtime('mysql:mysql-connector-java')
 	runtime('org.postgresql:postgresql')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('javax.xml.bind:jaxb-api')
 }
